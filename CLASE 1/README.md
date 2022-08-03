@@ -133,5 +133,3 @@ https://elcodigoascii.com.ar/
 ## Para saber el estado de los archivos en WD y SA
 
     git status
-
-modificacion
