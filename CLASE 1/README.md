@@ -148,7 +148,7 @@ Una vez confirmados los cambios (Los archivos están en el SA)
 
     git diff
 
-{{18 | 2:08:00}}
+{{18 | 2:08:00}} Me detalla todos los commits que hice. Primero me detalla el HASH, pero el numero entero. El autor, la fecha de la modificación, y los ordena de arriba a abajo siendo el primero de arriba el mas reciente commit. El HASH es una función matemática que es un único número, imposible que se repita. Para elaborarlo toma datos del autor, el mail, la fecha, y el nombre y mensaje y con todos esos datos elabora el HASH.
 
 ## Para ver las fotos o commits del repositorio
 
