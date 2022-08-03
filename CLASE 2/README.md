@@ -77,5 +77,3 @@ Manual: (No va poder resolver en forma automática) O sea hay conflictos.
 Enmendar un commit. Corregir.
 
     git commit --amend
-
-ESTOY PROBANDO ALGO NUEVO
