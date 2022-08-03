@@ -149,8 +149,32 @@ Una vez confirmados los cambios (Los archivos están en el SA)
     git diff
 
 {{18 | 2:08:00}} Me detalla todos los commits que hice. Primero me detalla el HASH, pero el numero entero. El autor, la fecha de la modificación, y los ordena de arriba a abajo siendo el primero de arriba el mas reciente commit. El HASH es una función matemática que es un único número, imposible que se repita. Para elaborarlo toma datos del autor, el mail, la fecha, y el nombre y mensaje y con todos esos datos elabora el HASH.
+El "git log --oneline" me muestra lo mismo pero resumido, un commit por línea
+
+{{19 | 2:21:00}} Muestra como acceder a Github y crear un nuevo repositorio, y una vez creado con el comando de abajo nos hace vincular nuestro repositorio local al repositorio remoto de Github que acabamos de crear
 
 ## Para ver las fotos o commits del repositorio
 
     git log
     git log --online
+
+{{22 | 2:25:30}}
+
+## Configurar en el repo local un remoto
+
+    git remote add origin <url>
+    git remote add origin https://github.com/Mlsimon90/cursoGit.git
+
+{{20 | 2:21:30}} Me muestra la URL o link del git remoto al que esta vinculado mi GIT
+
+## Para verificar si tengo el remoto configurado
+
+    git remote
+    git remote -v
+
+{{21 | 2:23:00}} Con esto hago subir mi repositorio local (master, por defecto viene main pero es por todo el tema del progresismo que explicaba el profe) al repositorio remoto que lo identifico como origin
+
+## Subir al repo remoto
+
+    git push -u <repo-remoto> <repo-local>
+    git push -u origin master
