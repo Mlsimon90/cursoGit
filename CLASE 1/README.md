@@ -165,7 +165,7 @@ El "git log --oneline" me muestra lo mismo pero resumido, un commit por línea
     git remote add origin <url>
     git remote add origin https://github.com/Mlsimon90/cursoGit.git
 
-{{20 | 2:21:30}} Me muestra la URL o link del git remoto al que esta vinculado mi GIT
+{{20 | 2:21:30}} Me muestra la URL o link del git remoto al que esta vinculado mi GIT, por general el alias del remoto es "origin" y el alias del local es "master" (GITHUB cree que por defecto viene "main" pero lo reemplazo cuando los vinculo por primera vez). Con "git remote -v" lo que hago es consultar el link del repositorio remoto al que tengo vinculado mi repositorio local
 
 ## Para verificar si tengo el remoto configurado
 
