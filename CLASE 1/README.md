@@ -133,3 +133,17 @@ https://elcodigoascii.com.ar/
 ## Para saber el estado de los archivos en WD y SA
 
     git status
+
+{{16 | 1:59:00}}
+
+## ¿Cómo sacamos la foto (Commmit)?
+
+Una vez confirmados los cambios (Los archivos están en el SA)
+
+    git commit -m "Mensaje"
+
+{{17 | 2:02:10}} Esto me permite ver la diferencia entre lo que tengo modificado y lo ya efectivamente commiteado. Una vez que ejecuto el comando git diff aprieot enter y me va mostrando en cada línea las diferencias entre lo que tengo commiteado y lo que tengo en el WD(working directory). Sigo apretando enter hasta que me diga (END) cuando en ese momento se me va a trabar la consola, aprieto Q para acabar el proceso
+
+## Para ver las diferencias entre el WD y el Local Repo
+
+    git diff
