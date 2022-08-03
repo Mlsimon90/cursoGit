@@ -134,7 +134,7 @@ https://elcodigoascii.com.ar/
 
     git status
 
-{{16 | 1:59:00}}
+{{16 | 1:59:00}} Con el comando Commit confirmo y envío definitivamente al repositorio todos los cambios. Cuando envío al repositorio, me acuse cuanto agregué, y cuanto eliminé en caso de haber eliminado algo. También me arroja un numero HASH
 
 ## ¿Cómo sacamos la foto (Commmit)?
 
@@ -147,3 +147,10 @@ Una vez confirmados los cambios (Los archivos están en el SA)
 ## Para ver las diferencias entre el WD y el Local Repo
 
     git diff
+
+{{18 | 2:08:00}}
+
+## Para ver las fotos o commits del repositorio
+
+    git log
+    git log --online
