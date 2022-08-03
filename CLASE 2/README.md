@@ -14,7 +14,7 @@ Le permite a git ver carpetas vacías y versionarlas
 ### Crear rama
 
     git branch <nombre-rama>
-    git branch rama-dev
+    git branch rama-branches
 
 ### Listar ramas
 
@@ -23,17 +23,17 @@ Le permite a git ver carpetas vacías y versionarlas
 ### Cambiarme de rama
 
     git switch <nombre-rama>
-    git switch rama-dev
+    git switch rama-branches
 
 ### Borramos una rama
 
     git branch -d <nombre-rama>
-    git branch -d rama-dev
+    git branch -d rama-branches
 
 ### Forzar borrado de rama (Con contenido que no fue fusionado)
 
     git branch -D <nombre-rama>
-    git branch -D rama-dev
+    git branch -D rama-branches
 
 ## GIT MERGE: Funsión de ramas
 
